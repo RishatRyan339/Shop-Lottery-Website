@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step-by-Step Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="step-guide">
+        <div class="step">
+            <img src="path/to/your/image1.jpg" alt="Step 1" class="step-image">
+            <p class="step-description">Step 1: Go to the ticket counter.</p>
+        </div>
+        <div class="arrow">&#8595;</div>
+        <div class="step">
+            <img src="path/to/your/image2.jpg" alt="Step 2" class="step-image">
+            <p class="step-description">Step 2: Show your ID.</p>
+        </div>
+        <div class="arrow">&#8595;</div>
+        <div class="step">
+            <img src="path/to/your/image3.jpg" alt="Step 3" class="step-image">
+            <p class="step-description">Step 3: Collect your ticket.</p>
+        </div>
+    </div>
+<style>
+    /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.step-guide {
+    text-align: center;
+}
+
+.step {
+    margin: 20px 0;
+}
+
+.step-image {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Ensure it matches the size */
+    border-radius: 50%; /* Make images round */
+    object-fit: cover;
+}
+
+.arrow {
+    font-size: 2em;
+    color: #333;
+}
+
+.step-description {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+</style>
+</body>
+</html>

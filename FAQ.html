@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .faq-section h5 {
+            cursor: pointer;
+            margin: 10px;
+            padding: 10px;
+             background: #f1f1f1;
+            border: 1px solid #ccc; 
+            border-radius: 5px;
+        }
+        .faq-section p {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            margin: 0;
+            padding: 0 10px;
+        }
+        .faq-section p.show {
+            max-height: 200px; /* adjust based on content */
+            padding: 10px;
+        }
+        .faq-section hr {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/food.svg" alt="logo" height="43px" width="44px">
+        </a>
+        <nav class="navbar">
+            <a href="where-to-shop.html">Where to Shop</a>
+            <a href="signup-business.html">Sign up your Business</a>
+            <a href="#draws">Draws</a>
+            <a href="how-it-works.html">How It Works?</a>
+            <a href="FAQ.html">FAQs</a>
+            <a href="contact-us.html">Contact Us</a>
+            <a href="about-us.html">About Us</a>
+        </nav>
+        <i class='fas fa-user-circle'id="button-nav3" style='font-size:28px;color:rgb(255, 255, 255)'></i>
+        <button class="w3-button w3-black" id="button-nav1">Upload your receipts</button>
+        <button class="w3-button w3-black" id="button-nav"><a href="login.html">Login</a> | <a href="signup.html">Register</a></button>
+    </header>
+    <div class="layer2"id="faq-layer">
+        <h6>Frequently Asked Questions</h6>
+        <p id="faq-p">Find the answers to your frequently-asked questions and find out how to get in touch with OUR Team.</p>
+    </div> 
+    <br><br>
+    <section class="FAQ-section">
+        <div class="faq-section">
+            <h5 class="faq-h5">How Many Outlets are in the Shopper Lottery?</h5>
+            <p class="faq-p2">There are hundreds of different outlets taking part in the Shopper Lottery. A full list of every outlet participating is listed on the Where to shop page.</p>
+           
+            <h5 class="faq-h5">Can I send my reciepts by posts?</h5>
+            <p class="faq-p2">You can send in your receipts by post provided each receipt is clearly marked with your name, ID card number and mobile phone number. However, it is easier and quicker if you send them in digitally plus you get to hold on to the original receipt or invoice yourself.</p>
+        
+            <h5 class="faq-h5">Is there a limit to the number of receipts I can send in?</h5>
+            <p class="faq-p2">Yes. Each person playing the lottery can have a maximum of 500 tickets. But don't worry, every single ticket you have is valid for every single lottery all year. (Unless it wins).</p>
+        
+            <h5 class="faq-h5">Can I send in the same receipt twice?</h5>
+            <p class="faq-p2">Definitely not. Each entered receipt and invoice is scanned and checked for duplicates. Anybody found to be sending in the same receipt more than once will have their account closed and their tickets invalidated.
+      </p>
+                <h5 class="faq-h5">Can I have more than one account on Shopper Lottery?</h5>
+            <p class="faq-p2">No. Anybody found with multiple accounts will have all accounts closed and any tickets they have accumulated invalidated.</p>
+          
+            <h5 class="faq-h5">Where can I see my tickets?</h5>
+            <p class="faq-p2">
+                You can see your tickets by logging into your account on Shopper Lottery.</p>
+            <h5 class="faq-h5">How will I know if I win?</h5>
+            <p class="faq-p2">Each draw will be held under the auspices of the Malta Gaming Authority. Each winner will be displayed on the website and on our social media accounts. You will then receive your voucher(s) to be spent at participating businesses within 15 to 20 working days.</p>
+            <h5 class="faq-h5">If I win, what happens?</h5>
+            <p class="faq-p2">    Within 25 working days of your win, you will receive your voucher(s) by post. You can then use these vouchers at any of the outlets that are currently participating in Shopper Lottery. You do this by presenting your voucher to the business when making a purchase. It is IMPORTANT to check this website to ensure the business you want to spend your voucher at is a currently active business on Shopper Lottery.</p>
+            <h5 class="faq-h5">Do I have to spend all my winnings in one place?</h5>
+            <p class="faq-p2">Absolutely not. You can choose to use your vouchers at a variety of outlets. Just make sure the businesses  where you are using your vouchers are currently active - in other words are visible on the website in the Where to Shop section.</p>
+            <h5 class="faq-h5">Do I have to spend my winnings in one go? </h5>
+            <p class="faq-p2"> No. Your voucher(s) are valid for a specified period of time. You can spend them at any time within that period and at any ACTIVE Shopper Lottery business. In other words, a business currently listed on the Where to Shop section. </p>
+
+        </div>
+    </section>
+    <section class="FAQ-form" id="faq-form100">
+        <div class="faq-ultimate">
+            <div class="faq-form-h1" id="forma">
+                <h1>Check our FAQs  they will answer about 95% of your questions</h1>
+                <p>If you didn't find the answer in the FAQs, please use the short form below to submit a question to our customer service staff. We'll get back to you as quickly as possible.</p>
+                
+            </div>
+            
+            <div class="faq-form" id="faq-form1">
+               
+                <form action="" >
+                  
+                  Name &emsp; : <input type="text" class="forma" id="name" name="name" required><br>
+            
+                  
+                    Surname :  <input type="text"class="forma" id="surname" name="surname" required><br>
+            
+                  
+                   E-mail&emsp; : <input type="email"class="forma" id="email" name="email" required><br>
+               
+                   <p class="comment-label">Comment:</p>  &emsp; &emsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <textarea id="comment" class="forma" name="comment" rows="4" required></textarea> <br>
+                   &emsp; &emsp; &emsp; &emsp;       <button class="forma" id="submitAB" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        
+    </section>
+    <footer class="FAQ-footer">
+        <br>
+        <br>
+    
+            <div class="box-container">
+    
+    
+                <!-- <div class="box"> --> 
+                    <!-- <div class="footercontent">
+                        <h1>lorem ipsum lorem ipsum</h1>
+                        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    </div>
+                     -->
+        
+                  
+    <!--         
+                    <div class="share">
+                    <a href="#" class="fab fa-facebook-f"id="fb"></a>
+                    <a href="#" class="fab fa-twitter"id="twit"></a>
+                    <a href="#" class="fab fa-instagram"id="insta"></a>
+                    <a href="#" class="fab fa-youtube"id="ytb"></a>
+                    
+                    </div>
+                 
+                </div> -->
+                <div class="box">
+                    <div class="footercontent">
+                        <h1>Shopper Lottery</h1>
+                        <a href="#"id="adm">Home</a>
+                        <a href="#"id="adm">Where to Shop</a>
+                        <a href="#"id="adm">Sign up your business</a>
+                        <a href="#"id="adm">How it works</a>
+                        
+                        <a href="#"id="adm">Contact Us</a>
+                        <a href="#"id="adm">About Us</a>
+                    </div>
+                    
+                  
+        
+        
+                 </div>
+        
+                <div class="box">
+                    <div class="footercontent">
+                        <h1>Quick Links</h1>
+                        <a href="#"id="adm">Frequently Asked Questions</a>
+                        <a href="#"id="adm">Terms and Conditions</a>
+                        <a href="#"id="adm">Privacy Policy</a>
+                        <a href="#"id="adm">Article</a>
+        
+                    </div>
+                    
+                  
+        
+        
+                 </div>
+        
+        
+                 <div class="box">
+                    <div class="footercontent">
+                        <h1>Account</h1>
+                        <a href="#"id="adm">Login</a>
+                        <a href="#"id="adm">Register</a>
+                        <a href="#"id="adm">Upload Reciept</a>
+                       
+        
+                    </div>
+                    
+                  
+        
+        
+                 </div>
+             
+        
+        
+        
+                 <div class="box">
+                    <div class="footercontent">
+                        <h1>Social Media</h1>
+                        <a href="#" class="fab fa-facebook-f"id="fb"></a>
+            
+                    <a href="#" class="fab fa-instagram"id="insta"></a>
+                  
+                       
+        
+                    </div>
+                  
+        
+        
+                 </div>
+        </div>
+        <br>
+        <br>
+        <br>
+       <p> © Shopper Lottery - Level 2, Office 4, Ta' Mallia Building, Triq in-Negozju, Industrial Estate, Mriehel BKR 3000, Malta</p>
+       <br>
+       <br>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const questions = document.querySelectorAll(".faq-section h5");
+            questions.forEach(question => {
+                question.addEventListener("click", function() {
+                    const answer = this.nextElementSibling;
+                    const isVisible = answer.classList.contains('show');
+                    document.querySelectorAll(".faq-section p").forEach(p => p.classList.remove('show'));
+                    if (!isVisible) {
+                        answer.classList.add('show');
+                    }
+                });
+            });
+        });
+
+
+    </script>
+</body>
+</html>
